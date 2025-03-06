@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="new_entry_style.css">
+    <title>Responsive Dashboard Design #2 | AsmrProg</title>
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#" class="logo">
+            <i class='bx bx-code-alt'></i>
+            <div class="logo-name"><span>PS</span>Vault</div>
+        </a>
+        <ul class="side-menu">
+            <li class="active"><a href="dashboard_index.html"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
+            <li><a href="emergency_contacts_index.html"><i class='bx bx-store-alt'></i>Emergency Contacts</a></li>
+            <li><a href="strength_meter_index.html"><i class='bx bx-analyse'></i>Strength Meter</a></li>
+            <li><a href="password_health_index.html"><i class='bx bx-shield-plus' ></i>Password health</a></li>
+            <li><a href="history_index.html"><i class='bx bx-group'></i>History</a></li>
+            <li><a href="password_generator_index.html"><i class='bx bx-cog'></i>Password Generator</a></li>
+            <li><a href="hints_index.html"><i class='bx bx-store-alt'></i>Hints</a></li>
+            <li><a href="update_index.html"><i class='bx bx-cog'></i>Update</a></li>
+        </ul>
+        <ul class="side-menu">
+            <li>
+                <a href="#" class="logout">
+                    <i class='bx bx-log-out-circle'></i>
+                    Logout
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- End of Sidebar -->
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Navbar -->
+        <nav>
+            <i class='bx bx-menu'></i>
+            <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Search...">
+                    <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
+                </div>
+            </form>
+            <a href="#" class="profile">
+                <img src="images/profile-1.jpg">
+            </a>
+        </nav>
+
+        <!-- End of Navbar -->
+
+        <main>
+            <div class="header">
+                <div class="left">
+                    <h1>NEW ENTRY</h1>
+                </div>
+            </div>
+
+            <div class="bottom-data">
+                <div class="orders">
+                    <div class="header">
+                        <i class='bx bx-shield-plus' ></i>
+                        <h3>Enter Account Details</h3>
+                    </div>
+                    <h3></h3>
+                    <div class="details">
+                        <form action="#">
+                            <div class="input-box">
+                                <label>Username</label>
+                                <input type="text" required>
+                                <!-- <i class='bx bx-user'></i> -->
+                            </div>
+                            <div class="input-box">
+                                <label>Password</label>
+                                <input type="password" required>
+                                <!-- <i class='bx bxs-lock-alt'></i> -->
+                            </div>
+                            <div class="input-box">
+                                <label>Website</label>
+                                <input type="text" required>
+                                <!-- <i class='bx bx-link-alt'></i> -->
+                            </div>
+                            <br>
+                            <br>
+                            <button type="submit" class="btn">Add Account</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="new_entry_script.js"></script>
+</body>
+
+</html>
